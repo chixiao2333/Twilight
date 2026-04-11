@@ -273,7 +273,7 @@ sidebar:
 # 资料配置
 profile:
     # 头像配置 (相对于 /public 目录)
-    avatar: "/assets/images/avatar.jpg"
+    avatar: "/assets/images/picture.jpg"
     # 信息配置
     name: "鸱鸮"
     # 简介配置
@@ -286,7 +286,7 @@ profile:
             # 图标
             icon: "fa6-brands:github"
             # 链接
-            url: "https://github.com/Spr-Aachen/Twilight"
+            url: "https://github.com/chixiao2333/"
 
 # 公告配置
 announcement:
