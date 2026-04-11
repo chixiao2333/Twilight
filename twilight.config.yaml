@@ -77,10 +77,10 @@ site:
                 # 在主页显示文本
                 enable: true
                 # 主标题
-                title: "Twilight"
+                title: "鸱鸮的Blog"
                 # 副标题，支持单个字符串或字符串数组
                 subtitle:
-                    - "Illuminate Our Paths"
+                    - "不枉此行"
                 # 副标题打字机效果
                 typewriter:
                     # 启用副标题打字机效果
@@ -275,9 +275,9 @@ profile:
     # 头像配置 (相对于 /public 目录)
     avatar: "/assets/images/avatar.jpg"
     # 信息配置
-    name: "Twilight"
+    name: "鸱鸮"
     # 简介配置
-    bio: "Hi"
+    bio: "我很懒"
     # 链接配置
     links:
         - # 链接示例
@@ -291,11 +291,11 @@ profile:
 # 公告配置
 announcement:
     # 公告标题
-    title: "Announcement"
+    title: "公告"
     # 公告内容
-    content: "Welcome to my blog!"
+    content: "重新开站，对博客大换血"
     # 允许用户关闭公告
-    closable: true
+    closable: false
     # 链接配置
     link:
         # 启用链接
@@ -385,7 +385,7 @@ particle:
 # 音乐播放器配置
 musicPlayer:
     # 启用音乐播放器功能
-    enable: true
+    enable:true
     # 默认模式 ("meting" API | "local" 本地)
     mode: "meting"
     # meting 模式专属配置
@@ -418,7 +418,7 @@ musicPlayer:
                 # 时长
                 duration: 146
     # 是否自动播放
-    autoplay: true
+    autoplay: false
 
 # 看板娘配置
 pio:
