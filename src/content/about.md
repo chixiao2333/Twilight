@@ -1,10 +1,10 @@
 # 关于
 
-这是鸱鸮的个人Blog
-专门发发牢骚用的（bushi
-有空就喜欢写写文章
+这是鸱鸮的个人Blog  
+专门发发牢骚用的（bushi  
+有空就喜欢写写文章  
 
-使用模版：
+使用模版：   
 ::github{repo="Spr-Aachen/Twilight"}
 
 
