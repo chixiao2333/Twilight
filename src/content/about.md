@@ -4,6 +4,7 @@
 专门发发牢骚用的（bushi
 有空就喜欢写写文章
 
+使用模版：
 ::github{repo="Spr-Aachen/Twilight"}
 
 
