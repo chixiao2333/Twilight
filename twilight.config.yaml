@@ -42,9 +42,9 @@ site:
     # 主题色配置
     themeColor:
         # 主题色的默认色相 (范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345)
-        hue: 255
+        hue: 250
     # 默认主题 ("system" 跟随系统 | "light" 浅色 | "dark" 深色)
-    defaultTheme: "dark"
+    defaultTheme: "system"
     # 壁纸配置
     wallpaper:
         # 模式 ("banner" 横幅 | "fullscreen" 全屏 | "none" 纯色)
@@ -53,7 +53,7 @@ site:
         src:
             # 桌面壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             desktop:
-                - "https://api.lazy.ink/img"
+                - https://api.lazy.ink/img
                 # - "/assets/images/desktopWallpaper_2.jpg"
                 # - "/assets/images/desktopWallpaper_3.jpg"
             # 移动壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
