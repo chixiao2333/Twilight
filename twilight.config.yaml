@@ -53,9 +53,13 @@ site:
         src:
             # 桌面壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             desktop:
-                - https://api.lazy.ink/img
-                # - "/assets/images/desktopWallpaper_2.jpg"
-                # - "/assets/images/desktopWallpaper_3.jpg"
+                - "/assets/images/0F7715AA-ECA1-478B-8853-608E7BCCA9A1.jpeg"
+                - "/assets/images/19972AD0-4ECF-42E8-9092-FDA506A5E19A.jpeg"
+                - "/assets/images/20FF8CB0-79C2-4A18-8355-F60C76EF7DD8.jpeg"
+                - "/assets/images/3EF25B17-2D6D-4C4A-B520-A650C50632DD.jpeg"
+                - "/assets/images/72BAC9BA-9D4E-4241-B883-E5B3107A171C.jpeg"
+                - "/assets/images/73DB4752-7A9E-4053-B8E6-D300237366E6.jpeg"
+                - "/assets/images/96F58804-036E-4048-B373-4D11A29E6100.jpeg"
             # 移动壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             mobile:
                 - "https://api.lazy.ink/img-phone"
