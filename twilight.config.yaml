@@ -156,13 +156,13 @@ site:
 # Umami统计配置
 umami:
     # 是否显示Umami统计
-    enabled: false
+    enabled: true
     # UmamiCloudAPI地址
     baseUrl: "https://api.umami.is"
     # API密钥 (可用环境变量覆盖)
-    apiKey: ""
+    apiKey: "3c7f147e-6ea8-45e0-89a7-a3dc2f342979"
     # 要插入的Script (可用环境变量覆盖)
-    scripts: ""
+    scripts: "<script defer src="https://cloud.umami.is/script.js" data-website-id="3c7f147e-6ea8-45e0-89a7-a3dc2f342979"></script>"
 
 # 导航栏配置
 navbar:
