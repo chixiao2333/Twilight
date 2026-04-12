@@ -57,7 +57,7 @@ export default defineConfig({
             enable: true , // Set to true to use oauth (Requires .env configuration)
         }),
         swup({
-            theme: true,
+            theme: false,
             animationClass: "transition-swup-", // see https://swup.js.org/options/#animationselector
             containers: [
                 "#swup-container",
