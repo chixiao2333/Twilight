@@ -1,24 +1,14 @@
-# About This Site
+# 关于
 
-Twilight is a CMS integrated static blog template built with [Astro](https://astro.build) framework.
+这是鸱鸮的个人Blog
+专门发发牢骚用的（bushi
+有空就喜欢写写文章
 
 ::github{repo="Spr-Aachen/Twilight"}
 
 
-## Milestones
+## 里程碑
 
-- Integrated content management system in [#1](https://github.com/Spr-Aachen/Twilight/pull/1)
-- Seamless wallpaper mode switching in [#2](https://github.com/Spr-Aachen/Twilight/pull/2)
-- Dynamic content container response in [#47](https://github.com/Spr-Aachen/Twilight/pull/47)
-- Seamless page component loading in [#48](https://github.com/Spr-Aachen/Twilight/pull/48)
-- Smart music playback handling in [#49](https://github.com/Spr-Aachen/Twilight/pull/49)
-- Infinite-level navigation system in [#50](https://github.com/Spr-Aachen/Twilight/pull/50)
-- Comprehensive statistics dashboard in [#51](https://github.com/Spr-Aachen/Twilight/pull/51)
-- Low-barrier configuration scheme in [#58](https://github.com/Spr-Aachen/Twilight/pull/58)
-- Dynamic breakpoint handling in [#68](https://github.com/Spr-Aachen/Twilight/pull/68)
-- Advanced content management in [#73](https://github.com/Spr-Aachen/Twilight/pull/73)
-- Nested category support in [#74](https://github.com/Spr-Aachen/Twilight/pull/74)
-- Comprehensive music card plugin in [#81](https://github.com/Spr-Aachen/Twilight/pull/81)
-- Refactored DecapCMS OAuth integration in [#107](https://github.com/Spr-Aachen/Twilight/pull/107)
-- Non-breaking PagesCMS support in [#114](https://github.com/Spr-Aachen/Twilight/pull/114)
-- Tree view directory component in [#117](https://github.com/Spr-Aachen/Twilight/pull/117)
+- 2026年4月11日，在进行长期考虑后，鸱鸮决定转向静态博客，并搭建本站
+- 2025年，鸱鸮由于不可抗力因素不得不关站
+- 2024年，鸱鸮第一次搭建blog，使用wordpress
