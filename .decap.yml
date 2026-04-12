@@ -1,6 +1,6 @@
 # 后台系统配置
 backend:
-    name: git-gateway
+    name: github
     repo: chixiao2333/Twilight # 请替换为您的 GitHub 仓库
     branch: main # 请替换为您的分支名称
     site_domain: chixiao.rian.cloud # 请替换为您的域名
