@@ -2,7 +2,7 @@
 
 # Twilight
 
-A CMS integrated static blog template built with Astro framework。
+A CMS integrated static blog template built with Astro framework.
 
 [**🖥️ Live Demo**](https://twilight.spr-aachen.com)
 [**📝 Documentation**](https://docs.twilight.spr-aachen.com/en)
