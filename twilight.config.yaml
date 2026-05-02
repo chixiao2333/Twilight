@@ -152,7 +152,7 @@ site:
 # 统计配置
 analytics:
     # 是否启用统计
-    enabled: true
+    enabled: false
     # 统计平台
     platform: "umami"
     # Umami 统计配置
