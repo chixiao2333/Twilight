@@ -152,7 +152,7 @@ site:
 # 统计配置
 analytics:
     # 是否启用统计
-    enabled: false
+    enabled: true
     # 统计平台
     platform: "umami"
     # Umami 统计配置
@@ -160,9 +160,9 @@ analytics:
         # Umami API 地址
         baseUrl: "https://api.umami.is"
         # API 密钥
-        apiKey: ''
+        apiKey: 'api_H3O8JVB46kF7KmUJScFKAimUbUCEihc2'
         # Tracking code
-        code: ''
+        code: '<script defer src="https://cloud.umami.is/script.js" data-website-id="ce93a282-6ebd-44b8-8128-1f41a85338ae"></script>'
 
 # 导航栏配置
 navbar:
@@ -423,7 +423,7 @@ musicPlayer:
         # 类型 ("playlist" 歌单 | "song" 单曲)
         type: "playlist"
         # 资源 ID
-        id: "2161912966"
+        id: "14200159337"
     # local 模式专属配置
     local:
         # 播放列表
