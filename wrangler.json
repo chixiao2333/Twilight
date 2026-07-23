@@ -1,8 +1,8 @@
 {
-  "name"="blog",
-  "compatibility_date"="2026-07-01",
-  "assets":{
-    "directory" = "./dist"
+   "name"= "blog",
+   "compatibility_date"= "2026-07-01",
+   "assets":{
+             "directory" = "./dist"
   }
 }
 
