@@ -1,0 +1,10 @@
+name = "Twilight"
+main = "./dist/server/entry.mjs"
+compatibility_date = "2026-07-01"
+
+[
+assets
+]
+directory = "./dist/client"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
