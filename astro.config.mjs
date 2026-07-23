@@ -4,6 +4,7 @@ import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import svelte, { vitePreprocess } from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import swup from "@swup/astro";
+import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import cloudflarePages from "@astrojs/cloudflare";
 import netlify from "@astrojs/netlify";
@@ -27,6 +28,7 @@ import { pluginCopyButton } from "./src/plugins/expressive-code/copy-button.js";
 import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
 import { MusicCardComponent } from "./src/plugins/rehype-component-music-card.mjs";
+import { rehypeAdmonitions } from "./src/plugins/rehype-admonitions.mjs";
 import { rehypeMermaid } from "./src/plugins/rehype-mermaid.mjs";
 import { rehypeLazyLoadMedia } from "./src/plugins/rehype-lazy-load-media.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
@@ -144,10 +146,11 @@ export default defineConfig({
                 showCopyToClipboardButton: false,
             },
         }),
+        mdx(),
+        sitemap(),
         svelte({
             preprocess: vitePreprocess(),
         }),
-        sitemap(),
     ],
     markdown: {
         remarkPlugins: [
@@ -197,9 +200,19 @@ export default defineConfig({
             [
                 rehypeCallouts,
                 {
-                    theme: "github"
-                }
+                    theme: "github",
+                    showIndicator: false,
+                    tags: {
+                        nonCollapsibleContainerTagName: "blockquote",
+                    },
+                    props: {
+                        containerProps: (node, type) => ({ className: ["admonition", `bdm-${type}`] }),
+                        titleProps: { className: "bdm-title" },
+                        contentProps: { className: "bdm-content" },
+                    },
+                },
             ],
+            rehypeAdmonitions,
             rehypeMermaid,
             rehypeLazyLoadMedia,
         ],

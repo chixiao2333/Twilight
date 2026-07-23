@@ -2,6 +2,8 @@
 title: Video Example
 published: 2021-12-02
 description: This post demonstrates how to embed video in a blog post.
+cover: "https://picsum.photos/200/300?random=22"
+coverInContent: false
 tags: [Markdown, Video]
 category: Examples
 draft: false
@@ -31,4 +33,4 @@ published: 2023-10-19
 
 ### Bilibili
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV14QpMeSEuD&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &autoplay=0> </iframe>
+<iframe width="100%" height="468" src="https://player.bilibili.com/player.html?bvid=BV1WrsdeSES1&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
